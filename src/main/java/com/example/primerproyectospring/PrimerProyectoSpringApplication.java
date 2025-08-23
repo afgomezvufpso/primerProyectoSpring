@@ -8,6 +8,7 @@ public class PrimerProyectoSpringApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(PrimerProyectoSpringApplication.class, args);
+        System.out.println("Rama creada: Andrés Gómez");
     }
     
 }
