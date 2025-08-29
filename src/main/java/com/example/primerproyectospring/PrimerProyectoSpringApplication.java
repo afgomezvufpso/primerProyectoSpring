@@ -12,7 +12,7 @@ public class PrimerProyectoSpringApplication {
 
         // Llamado de la función helloWorld
         helloWorld();
-        helloCruelWorld();
+        helloWorldNombre("Natalia");
     }
 
     // Función que imprime Hello World
@@ -20,9 +20,9 @@ public class PrimerProyectoSpringApplication {
         System.out.println("Hello World! de Jordy");
     }
 
-    //Funcion que imprime Hello Cruel World
-    public static void helloCruelWorld() {
-        System.out.println("Hello cruel World! de Natalia");
+    // Función que imprime Hello World
+    public static void helloWorldNombre(String nombre) {
+        System.out.println("Hello World!" + nombre);
     }
 
 }
