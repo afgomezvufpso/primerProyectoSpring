@@ -12,11 +12,17 @@ public class PrimerProyectoSpringApplication {
 
         // Llamado de la función helloWorld
         helloWorld();
+        helloWorldNombre("Natalia");
     }
 
     // Función que imprime Hello World
     public static void helloWorld() {
         System.out.println("Hello World! de Jordy");
     }
-    
+
+    // Función que imprime Hello World
+    public static void helloWorldNombre(String nombre) {
+        System.out.println("Hello World!" + nombre);
+    }
+
 }
